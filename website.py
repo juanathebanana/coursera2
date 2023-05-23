@@ -60,6 +60,9 @@ def main():
 						st.write("\n Top 5 Rated Courses in:",completo[1])
 					elif filter_subject == completo[2]:
 						st.write("\n Top 5 Rated Courses in:",completo[2])
+					elif filter_subject==completo[3]:
+						st.write("\n Top 5 Rated Courses in:",completo[3])
+						
 						
 					
 						
