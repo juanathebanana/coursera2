@@ -23,7 +23,7 @@ st.balloons()
 def main():
 	"""Simple Login App"""
 
-	st.title("Simple Login App")
+	st.title("Hola")
 
 	menu = ["Home","Login","SignUp"]
 	choice = st.sidebar.selectbox("Menu",menu)
