@@ -56,6 +56,13 @@ def main():
 						st.write("Recommended Courses based on your interests are :")
 					if filter_subject == completo[0]:
 						st.write("\n Top 5 Rated Courses in:",completo[0])
+					elif filter_subject == completo[1]:
+						st.write("\n Top 5 Rated Courses in:",completo[1])
+					elif filter_subject == completo[2]:
+						st.write("\n Top 5 Rated Courses in:",completo[2])
+						
+					
+						
 
 
 
