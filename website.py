@@ -16,7 +16,7 @@ from storing.dirit import check_hashes
 
 
 nuevo=open('/home/juana/Desktop/coursera/storing/subject_list.pkl','rb')
-cursos_nuevo=pickle.load(open'subject_list.pkl','rb')
+cursos_nuevo=pickle.load(open('subject_list.pkl','rb')
 
 completo=list(set(cursos_nuevo['Course Subject'].values()))
 
@@ -61,7 +61,7 @@ def main():
 					st.radio('Pick your gender',['Male','Female','Other'])
 
 				if task =="Course selection":
-					filter_subject=st.radio("What do you want to learn?",dizionario.values())
+					filter_subject=st.radio("What do you want to learn?",completo)
 					if st.button('Show Recommended Courses'):
 						st.write("Recommended Courses based on your interests are :")
 					if filter_subject == completo[0]:
