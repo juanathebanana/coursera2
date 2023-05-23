@@ -17,13 +17,7 @@ from storing.dirit import check_hashes
 
 nuevo=open('/home/juana/Desktop/coursera/storing/subject_list.pkl','rb')
 cursos_nuevo=pickle.load(open('subject_list.pkl','rb')
-
-
-
-
-
-
-
+completo=list(set(cursos_nuevo['Course Subject'].values()))
 
 
 
@@ -97,6 +91,5 @@ def main():
 
 
 
-if __name__ == '__main__':
-	main()
+
 
